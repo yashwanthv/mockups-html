@@ -1,2 +1,2 @@
 FROM httpd:2.4
-COPY ./mockups-html/ /usr/local/apache2/htdocs/
+COPY mock.html /usr/local/apache2/htdocs/
